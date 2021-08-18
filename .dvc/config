@@ -1,0 +1,7 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://opendata
+    endpointurl = http://192.168.207.34:9007
+    use_ssl = false
+    ssl_verify = false
